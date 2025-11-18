@@ -1,0 +1,9 @@
+sensor_msgs/Image image
+string text_prompt
+float32 box_threshold
+float32 text_threshold
+---
+sensor_msgs/Image annotated_image
+string[] labels
+float32[] scores
+float32[] boxes

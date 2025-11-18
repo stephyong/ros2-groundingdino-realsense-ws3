@@ -1,0 +1,30 @@
+# --- colcon / ROS2 build artifacts ---
+build/
+install/
+log/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+.env/
+gdinov2_env/
+.gdinov2_env/
+
+# --- IDE/editor files ---
+.vscode/
+.idea/
+*.swp
+
+# --- Misc ---
+.DS_Store
+Thumbs.db
+
+# --- Large model files (if they live under this workspace) ---
+# Uncomment and adjust paths if you keep weights here
+# weights/
+# models/
