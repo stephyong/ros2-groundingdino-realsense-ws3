@@ -73,9 +73,7 @@ def launch_setup():
         }.items()
     )
 
-    right_camera_calibration_la    
-    
-    unch = IncludeLaunchDescription(
+    right_camera_calibration_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(bringup_pkg, 'launch', 'right_camera_right_wrist_3_link_calibration.launch.py')
         )

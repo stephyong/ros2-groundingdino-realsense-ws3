@@ -10,7 +10,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
-import cv2
+
 from groundingdino_interfaces.msg import ObjectPosition, ObjectPositions
 from groundingdino_interfaces.srv import GroundingDinoPredict
 
@@ -20,41 +20,41 @@ class GroundingDINOClient(Node):
     def __init__(self):
         super().__init__("groundingdino_client")
 
-        # Text prompt parameter (what to detect)
+        # Parameter: what to detect
         self.declare_parameter("text_prompt", "blue circle")
         self.text_prompt = (
-            self.get_parameter("text_prompt")
-            .get_parameter_value()
-            .string_value
+            self.get_parameter("text_prompt").get_parameter_value().string_value
         )
 
-        # How often to call the service (seconds)
+        # Call interval
         self.call_interval = 5.0
 
         self.bridge = CvBridge()
         self.last_image = None
         self.processing = False
 
-        # Subscribe to camera just to ensure it's publishing (optional)
+        # Subscribe to right camera
         self.subscription = self.create_subscription(
             Image,
-            "/camera/camera/color/image_raw",
+            "/right_camera/color/image_raw",   # FIXED TOPIC
             self.image_callback,
             10,
         )
 
-        # Service client – must match server name & type
+        # Service client
         self.client = self.create_client(GroundingDinoPredict, "grounding_dino_predict")
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info("Service not available, waiting again...")
 
-        # Publisher for annotated image
-        self.publisher = self.create_publisher(Image, "/groundingdino/annotated_image", 10)
+        # Where to publish annotated images
+        self.publisher = self.create_publisher(
+            Image, "/groundingdino/annotated_image", 10
+        )
 
-        # Timer to periodically call the service
+        # Timer to call service
         self.timer = self.create_timer(self.call_interval, self.timer_callback)
 
-        self.get_logger().info("GroundingDINO Client node has been started.")
+        self.get_logger().info("GroundingDINO Client node started.")
 
     def image_callback(self, msg: Image):
         self.last_image = msg
@@ -67,7 +67,7 @@ class GroundingDINOClient(Node):
         self.get_logger().info("Calling grounding_dino_predict service...")
 
         request = GroundingDinoPredict.Request()
-        request.prompt = self.text_prompt  # string field in the .srv
+        request.prompt = self.text_prompt
 
         future = self.client.call_async(request)
         future.add_done_callback(self.handle_response)
@@ -80,45 +80,42 @@ class GroundingDINOClient(Node):
             self.processing = False
             return
 
-        self.get_logger().info("Received response from grounding_dino_predict server.")
+        self.get_logger().info("Received response.")
 
-        # --- Extract annotated image ---
-        annotated_img_msg = response.result.image
-        self.publisher.publish(annotated_img_msg)
-        self.get_logger().info("Published annotated image to /groundingdino/annotated_image.")
+        # Publish annotated image
+        annotated_msg = response.result.image
+        self.publisher.publish(annotated_msg)
+        self.get_logger().info("Published annotated image.")
 
-        # --- Log workspace bbox ---
+        # Print workspace bbox
         ws = response.result.workspace_bbox.data
-        if ws:
-            self.get_logger().info(f"Workspace bbox (x_min, x_max, y_min, y_max): {list(ws)}")
+        self.get_logger().info(f"Workspace bbox: {list(ws)}")
 
-        # --- Log detected objects ---
+        # Print detections
         for obj in response.result.object_position:
-            # 2D box
-            bbox_str = f"({obj.x_min}, {obj.y_min}) -> ({obj.x_max}, {obj.y_max})"
+            bbox = f"({obj.x_min}, {obj.y_min}) -> ({obj.x_max}, {obj.y_max})"
+            depth = f"{obj.depth:.3f}m" if obj.depth > 0 else "N/A"
 
-            # Depth
-            depth_str = f"{obj.depth:.3f} m" if obj.depth > 0 else "N/A"
-
-            # World position
-            wx = obj.pose.pose.position.x
-            wy = obj.pose.pose.position.y
-            wz = obj.pose.pose.position.z
+            if obj.pose:
+                wx = obj.pose.pose.position.x
+                wy = obj.pose.pose.position.y
+                wz = obj.pose.pose.position.z
+                wpos = f"({wx:.3f}, {wy:.3f}, {wz:.3f})"
+            else:
+                wpos = "(nan, nan, nan)"
 
             self.get_logger().info(
-                f"ID {obj.id} | class={obj.class_label} | bbox={bbox_str} | "
-                f"depth={depth_str} | world=({wx:.3f}, {wy:.3f}, {wz:.3f})"
+                f"[ID {obj.id}] class={obj.class_label} | bbox={bbox} | depth={depth} | world={wpos}"
             )
 
         self.processing = False
 
-        self.last_image = msg
 
 def main(args=None):
     rclpy.init(args=args)
-    client = GroundingDINOClient()
-    rclpy.spin(client)
-    client.destroy_node()
+    node = GroundingDINOClient()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 
