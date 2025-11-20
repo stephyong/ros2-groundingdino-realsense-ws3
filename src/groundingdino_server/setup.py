@@ -10,20 +10,29 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/groundingdino_svccli.launch.py']),
+
+        # Install launch file
+        ('share/' + package_name + '/launch', [
+            'launch/groundingdino_svccli.launch.py'
+        ]),
+
+        # Install config folder for hand-eye calibration
+        ('share/' + package_name + '/config', [
+            'config/handeye_extrinsics.yaml'
+        ]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='sutd',
     maintainer_email='steph27041@gmail.com',
-    description='TODO: Package description',
+    description='GroundingDINO server providing bounding box + 3D deprojection',
     license='TODO: License declaration',
     extras_require={
-        'test': [
-            'pytest',
-        ],
+        'test': ['pytest'],
     },
     entry_points={
-        'console_scripts': ['server_executable = groundingdino_server.groundingdino_server:main'],
+        'console_scripts': [
+            'server_executable = groundingdino_server.groundingdino_server:main',
+        ],
     },
 )
