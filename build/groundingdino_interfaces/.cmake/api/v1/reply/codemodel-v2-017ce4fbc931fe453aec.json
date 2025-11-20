@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d25f92a674503d50ff43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "groundingdino_interfaces__py",
+					"jsonFile" : "directory-groundingdino_interfaces__py-4adfb24f755ebc7dac9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/barracuda/ros2_ws3/build/groundingdino_interfaces/groundingdino_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "groundingdino_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_groundingdino_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_groundingdino_interfaces_egg-5c82debca1d4c4c76763.json",
+					"name" : "ament_cmake_python_build_groundingdino_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_groundingdino_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_groundingdino_interfaces-95a6d564031167acd969.json",
+					"name" : "ament_cmake_python_copy_groundingdino_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces-a1fa9a17c9c1c43045d3.json",
+					"name" : "groundingdino_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__cpp-0858db3353f1b172ed8f.json",
+					"name" : "groundingdino_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "groundingdino_interfaces__py::@c8836a7da92d7d23848a",
+					"jsonFile" : "target-groundingdino_interfaces__py-118c0baca5e43f16f2a5.json",
+					"name" : "groundingdino_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_generator_c-1c79773ff4064b4bcfde.json",
+					"name" : "groundingdino_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_generator_py-79fdead7186f2867da57.json",
+					"name" : "groundingdino_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_c-3aa80caa49c0809c0e47.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_c__pyext-cb95a5dcf828b2aa083f.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_cpp-bbae22f48a91f942864c.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_fastrtps_c-7b7ac057693a6beb49de.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_fastrtps_c__pyext-20d86b12fa3b0403b95e.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_fastrtps_cpp-8bfb28c81ae170f271af.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_introspection_c-1a606ea203ee199c9eca.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_introspection_c__pyext-d93ec7078e415b1bf250.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces__rosidl_typesupport_introspection_cpp-a4563707f79536b144c8.json",
+					"name" : "groundingdino_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "groundingdino_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundingdino_interfaces_uninstall-5aed0357ac2443b41c88.json",
+					"name" : "groundingdino_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b7312e9c6fcd53d5c56a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/barracuda/ros2_ws3/build/groundingdino_interfaces",
+		"source" : "/home/barracuda/ros2_ws3/src/groundingdino_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

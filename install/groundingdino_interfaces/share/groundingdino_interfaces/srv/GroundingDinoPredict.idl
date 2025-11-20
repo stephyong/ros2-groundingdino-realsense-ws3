@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from groundingdino_interfaces/srv/GroundingDinoPredict.srv
+// generated code does not contain a copyright notice
+
+#include "groundingdino_interfaces/msg/ObjectPositions.idl"
+
+module groundingdino_interfaces {
+  module srv {
+    struct GroundingDinoPredict_Request {
+      string prompt;
+    };
+    struct GroundingDinoPredict_Response {
+      groundingdino_interfaces::msg::ObjectPositions result;
+    };
+  };
+};

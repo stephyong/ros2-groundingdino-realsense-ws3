@@ -1,0 +1,8 @@
+{
+  "package_name": "groundingdino_interfaces",
+  "non_idl_tuples": [
+    "/home/barracuda/ros2_ws3/src/groundingdino_interfaces:srv/GroundingDinoPredict.srv",
+    "/home/barracuda/ros2_ws3/src/groundingdino_interfaces:msg/ObjectPosition.msg",
+    "/home/barracuda/ros2_ws3/src/groundingdino_interfaces:msg/ObjectPositions.msg"
+  ]
+}

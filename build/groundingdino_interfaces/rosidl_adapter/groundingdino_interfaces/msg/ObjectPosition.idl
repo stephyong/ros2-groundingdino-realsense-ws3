@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from groundingdino_interfaces/msg/ObjectPosition.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module groundingdino_interfaces {
+  module msg {
+    struct ObjectPosition {
+      int32 id;
+
+      string class_label;
+
+      @verbatim (language="comment", text=
+        "2D bounding box in full image coordinates (pixels)")
+      int32 x_min;
+
+      int32 y_min;
+
+      int32 x_max;
+
+      int32 y_max;
+
+      @verbatim (language="comment", text=
+        "Depth of the center point along camera Z-axis (metres)")
+      float depth;
+
+      @verbatim (language="comment", text=
+        "3D coordinates of the detection center in camera frame")
+      geometry_msgs::msg::Point camera_point;
+
+      @verbatim (language="comment", text=
+        "3D pose of the detection center in world frame")
+      geometry_msgs::msg::PoseStamped pose;
+
+      @verbatim (language="comment", text=
+        "Optional: 3D coordinates of bounding box corners in camera frame")
+      geometry_msgs::msg::Point camera_xy_min;
+
+      geometry_msgs::msg::Point camera_xy_max;
+    };
+  };
+};

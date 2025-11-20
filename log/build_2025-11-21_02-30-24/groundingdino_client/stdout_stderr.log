@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/groundingdino_client/groundingdino_client.egg-info
+writing ../../build/groundingdino_client/groundingdino_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/groundingdino_client/groundingdino_client.egg-info/dependency_links.txt
+writing entry points to ../../build/groundingdino_client/groundingdino_client.egg-info/entry_points.txt
+writing requirements to ../../build/groundingdino_client/groundingdino_client.egg-info/requires.txt
+writing top-level names to ../../build/groundingdino_client/groundingdino_client.egg-info/top_level.txt
+writing manifest file '../../build/groundingdino_client/groundingdino_client.egg-info/SOURCES.txt'
+reading manifest file '../../build/groundingdino_client/groundingdino_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/groundingdino_client/groundingdino_client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/barracuda/ros2_ws3/build/groundingdino_client/build
+creating /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib
+creating /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client
+copying groundingdino_client/groundingdino_client.py -> /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client
+copying groundingdino_client/__init__.py -> /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client
+running install
+running install_lib
+creating /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client
+copying /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client/groundingdino_client.py -> /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client
+copying /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client/__init__.py -> /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client
+byte-compiling /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client/groundingdino_client.py to groundingdino_client.cpython-310.pyc
+byte-compiling /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/barracuda/ros2_ws3/install/groundingdino_client/share/ament_index
+creating /home/barracuda/ros2_ws3/install/groundingdino_client/share/ament_index/resource_index
+creating /home/barracuda/ros2_ws3/install/groundingdino_client/share/ament_index/resource_index/packages
+copying resource/groundingdino_client -> /home/barracuda/ros2_ws3/install/groundingdino_client/share/ament_index/resource_index/packages
+copying package.xml -> /home/barracuda/ros2_ws3/install/groundingdino_client/share/groundingdino_client
+creating /home/barracuda/ros2_ws3/install/groundingdino_client/share/groundingdino_client/launch
+copying launch/dual_arm_workcell_bringup.launch.py -> /home/barracuda/ros2_ws3/install/groundingdino_client/share/groundingdino_client/launch
+running install_egg_info
+Copying ../../build/groundingdino_client/groundingdino_client.egg-info to /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client-0.0.0-py3.10.egg-info
+running install_scripts
+Installing groundingdino_client_executable script to /home/barracuda/ros2_ws3/install/groundingdino_client/lib/groundingdino_client
+writing list of installed files to '/home/barracuda/ros2_ws3/build/groundingdino_client/install.log'

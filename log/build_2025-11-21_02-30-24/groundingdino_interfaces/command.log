@@ -1,0 +1,6 @@
+Invoking command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/barracuda/ros2_ws3/src/groundingdino_interfaces -DCMAKE_INSTALL_PREFIX=/home/barracuda/ros2_ws3/install/groundingdino_interfaces
+Invoked command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/barracuda/ros2_ws3/src/groundingdino_interfaces -DCMAKE_INSTALL_PREFIX=/home/barracuda/ros2_ws3/install/groundingdino_interfaces
+Invoking command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/barracuda/ros2_ws3/build/groundingdino_interfaces -- -j48 -l48
+Invoked command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/barracuda/ros2_ws3/build/groundingdino_interfaces -- -j48 -l48
+Invoking command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/barracuda/ros2_ws3/build/groundingdino_interfaces
+Invoked command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/barracuda/ros2_ws3/build/groundingdino_interfaces

@@ -1,0 +1,3 @@
+[console_scripts]
+groundingdino_client_executable = groundingdino_client.groundingdino_client:main
+

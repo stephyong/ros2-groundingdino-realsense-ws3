@@ -1,0 +1,39 @@
+[0.427s] Invoking command in '/home/barracuda/ros2_ws3/src/groundingdino_client': AMENT_PREFIX_PATH=/home/barracuda/ros2_ws3/install/groundingdino_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/barracuda/ros2_ws3/install/groundingdino_interfaces LD_LIBRARY_PATH=/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/barracuda/ros2_ws3/build/groundingdino_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages:/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/groundingdino_client build --build-base /home/barracuda/ros2_ws3/build/groundingdino_client/build install --record /home/barracuda/ros2_ws3/build/groundingdino_client/install.log --single-version-externally-managed install_data
+[0.537s] running egg_info
+[0.537s] creating ../../build/groundingdino_client/groundingdino_client.egg-info
+[0.537s] writing ../../build/groundingdino_client/groundingdino_client.egg-info/PKG-INFO
+[0.537s] writing dependency_links to ../../build/groundingdino_client/groundingdino_client.egg-info/dependency_links.txt
+[0.537s] writing entry points to ../../build/groundingdino_client/groundingdino_client.egg-info/entry_points.txt
+[0.537s] writing requirements to ../../build/groundingdino_client/groundingdino_client.egg-info/requires.txt
+[0.538s] writing top-level names to ../../build/groundingdino_client/groundingdino_client.egg-info/top_level.txt
+[0.538s] writing manifest file '../../build/groundingdino_client/groundingdino_client.egg-info/SOURCES.txt'
+[0.538s] reading manifest file '../../build/groundingdino_client/groundingdino_client.egg-info/SOURCES.txt'
+[0.538s] writing manifest file '../../build/groundingdino_client/groundingdino_client.egg-info/SOURCES.txt'
+[0.538s] running build
+[0.539s] running build_py
+[0.539s] creating /home/barracuda/ros2_ws3/build/groundingdino_client/build
+[0.539s] creating /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib
+[0.539s] creating /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client
+[0.539s] copying groundingdino_client/groundingdino_client.py -> /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client
+[0.539s] copying groundingdino_client/__init__.py -> /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client
+[0.539s] running install
+[0.539s] running install_lib
+[0.539s] creating /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client
+[0.539s] copying /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client/groundingdino_client.py -> /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client
+[0.539s] copying /home/barracuda/ros2_ws3/build/groundingdino_client/build/lib/groundingdino_client/__init__.py -> /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client
+[0.540s] byte-compiling /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client/groundingdino_client.py to groundingdino_client.cpython-310.pyc
+[0.540s] byte-compiling /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client/__init__.py to __init__.cpython-310.pyc
+[0.540s] running install_data
+[0.540s] creating /home/barracuda/ros2_ws3/install/groundingdino_client/share/ament_index
+[0.540s] creating /home/barracuda/ros2_ws3/install/groundingdino_client/share/ament_index/resource_index
+[0.540s] creating /home/barracuda/ros2_ws3/install/groundingdino_client/share/ament_index/resource_index/packages
+[0.540s] copying resource/groundingdino_client -> /home/barracuda/ros2_ws3/install/groundingdino_client/share/ament_index/resource_index/packages
+[0.541s] copying package.xml -> /home/barracuda/ros2_ws3/install/groundingdino_client/share/groundingdino_client
+[0.541s] creating /home/barracuda/ros2_ws3/install/groundingdino_client/share/groundingdino_client/launch
+[0.541s] copying launch/dual_arm_workcell_bringup.launch.py -> /home/barracuda/ros2_ws3/install/groundingdino_client/share/groundingdino_client/launch
+[0.541s] running install_egg_info
+[0.542s] Copying ../../build/groundingdino_client/groundingdino_client.egg-info to /home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages/groundingdino_client-0.0.0-py3.10.egg-info
+[0.542s] running install_scripts
+[0.553s] Installing groundingdino_client_executable script to /home/barracuda/ros2_ws3/install/groundingdino_client/lib/groundingdino_client
+[0.553s] writing list of installed files to '/home/barracuda/ros2_ws3/build/groundingdino_client/install.log'
+[0.567s] Invoked command in '/home/barracuda/ros2_ws3/src/groundingdino_client' returned '0': AMENT_PREFIX_PATH=/home/barracuda/ros2_ws3/install/groundingdino_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/barracuda/ros2_ws3/install/groundingdino_interfaces LD_LIBRARY_PATH=/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/barracuda/ros2_ws3/build/groundingdino_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/barracuda/ros2_ws3/install/groundingdino_client/lib/python3.10/site-packages:/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/groundingdino_client build --build-base /home/barracuda/ros2_ws3/build/groundingdino_client/build install --record /home/barracuda/ros2_ws3/build/groundingdino_client/install.log --single-version-externally-managed install_data

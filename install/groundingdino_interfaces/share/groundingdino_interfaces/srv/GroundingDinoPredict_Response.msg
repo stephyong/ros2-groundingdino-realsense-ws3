@@ -1,0 +1,2 @@
+
+groundingdino_interfaces/ObjectPositions result

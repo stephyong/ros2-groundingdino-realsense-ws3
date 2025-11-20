@@ -1,0 +1,3 @@
+/home/barracuda/ros2_ws3/build/groundingdino_interfaces/rosidl_adapter/groundingdino_interfaces:srv/GroundingDinoPredict.idl
+/home/barracuda/ros2_ws3/build/groundingdino_interfaces/rosidl_adapter/groundingdino_interfaces:msg/ObjectPosition.idl
+/home/barracuda/ros2_ws3/build/groundingdino_interfaces/rosidl_adapter/groundingdino_interfaces:msg/ObjectPositions.idl

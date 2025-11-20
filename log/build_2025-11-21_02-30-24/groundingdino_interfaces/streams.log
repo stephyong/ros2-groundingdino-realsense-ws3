@@ -1,0 +1,304 @@
+[0.006s] Invoking command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/barracuda/ros2_ws3/src/groundingdino_interfaces -DCMAKE_INSTALL_PREFIX=/home/barracuda/ros2_ws3/install/groundingdino_interfaces
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.200s] -- Detecting CXX compile features - done
+[0.202s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.295s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.349s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.370s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.373s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.378s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.427s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.613s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.999s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.015s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.030s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.030s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.030s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.030s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.043s] -- Found PythonExtra: .so  
+[1.087s] -- Configuring done
+[1.112s] -- Generating done
+[1.119s] -- Build files have been written to: /home/barracuda/ros2_ws3/build/groundingdino_interfaces
+[1.129s] Invoked command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/barracuda/ros2_ws3/src/groundingdino_interfaces -DCMAKE_INSTALL_PREFIX=/home/barracuda/ros2_ws3/install/groundingdino_interfaces
+[1.130s] Invoking command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/barracuda/ros2_ws3/build/groundingdino_interfaces -- -j48 -l48
+[1.160s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.167s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.171s] [  4%] Built target ament_cmake_python_copy_groundingdino_interfaces
+[1.296s] running egg_info
+[1.296s] creating groundingdino_interfaces.egg-info
+[1.296s] writing groundingdino_interfaces.egg-info/PKG-INFO
+[1.297s] writing dependency_links to groundingdino_interfaces.egg-info/dependency_links.txt
+[1.297s] writing top-level names to groundingdino_interfaces.egg-info/top_level.txt
+[1.297s] writing manifest file 'groundingdino_interfaces.egg-info/SOURCES.txt'
+[1.297s] reading manifest file 'groundingdino_interfaces.egg-info/SOURCES.txt'
+[1.298s] writing manifest file 'groundingdino_interfaces.egg-info/SOURCES.txt'
+[1.314s] [  4%] Built target ament_cmake_python_build_groundingdino_interfaces_egg
+[1.398s] [  4%] Built target groundingdino_interfaces__cpp
+[1.405s] [ 10%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/groundingdino_interfaces/msg/detail/object_position__functions.c.o[0m
+[1.405s] [ 10%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/groundingdino_interfaces/srv/detail/grounding_dino_predict__functions.c.o[0m
+[1.405s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.405s] [ 12%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_generator_c.dir/rosidl_generator_c/groundingdino_interfaces/msg/detail/object_positions__functions.c.o[0m
+[1.406s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.408s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.442s] [ 19%] [32m[1mLinking C shared library libgroundingdino_interfaces__rosidl_generator_c.so[0m
+[1.468s] [ 19%] Built target groundingdino_interfaces__rosidl_generator_c
+[1.475s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.475s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.476s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.598s] [ 29%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/groundingdino_interfaces/msg/object_position__type_support.cpp.o[0m
+[1.598s] [ 29%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/groundingdino_interfaces/srv/grounding_dino_predict__type_support.cpp.o[0m
+[1.599s] [ 31%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/groundingdino_interfaces/msg/object_positions__type_support.cpp.o[0m
+[1.615s] [ 34%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/groundingdino_interfaces/srv/detail/grounding_dino_predict__type_support.cpp.o[0m
+[1.615s] [ 36%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/groundingdino_interfaces/msg/detail/object_positions__type_support.cpp.o[0m
+[1.616s] [ 38%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/groundingdino_interfaces/msg/detail/object_position__type_support.cpp.o[0m
+[1.627s] [ 40%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/groundingdino_interfaces/srv/detail/dds_fastrtps/grounding_dino_predict__type_support.cpp.o[0m
+[1.627s] [ 42%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/groundingdino_interfaces/msg/detail/dds_fastrtps/object_position__type_support.cpp.o[0m
+[1.628s] [ 44%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/groundingdino_interfaces/msg/detail/dds_fastrtps/object_positions__type_support.cpp.o[0m
+[1.662s] [ 46%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/groundingdino_interfaces/msg/object_position__type_support.cpp.o[0m
+[1.663s] [ 48%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/groundingdino_interfaces/srv/grounding_dino_predict__type_support.cpp.o[0m
+[1.664s] [ 51%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/groundingdino_interfaces/msg/object_positions__type_support.cpp.o[0m
+[1.685s] [ 53%] [32m[1mLinking CXX shared library libgroundingdino_interfaces__rosidl_typesupport_c.so[0m
+[1.694s] [ 55%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/groundingdino_interfaces/srv/detail/grounding_dino_predict__type_support.c.o[0m
+[1.694s] [ 59%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/groundingdino_interfaces/msg/detail/object_positions__type_support.c.o[0m
+[1.694s] [ 59%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/groundingdino_interfaces/msg/detail/object_position__type_support.c.o[0m
+[1.696s] [ 61%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/groundingdino_interfaces/srv/detail/grounding_dino_predict__type_support_c.cpp.o[0m
+[1.698s] [ 63%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/groundingdino_interfaces/msg/detail/object_position__type_support_c.cpp.o[0m
+[1.699s] [ 65%] [32mBuilding CXX object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/groundingdino_interfaces/msg/detail/object_positions__type_support_c.cpp.o[0m
+[1.721s] [ 65%] Built target groundingdino_interfaces__rosidl_typesupport_c
+[1.729s] [ 68%] [32m[1mLinking C shared library libgroundingdino_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.752s] [ 68%] Built target groundingdino_interfaces__rosidl_typesupport_introspection_c
+[1.761s] [ 70%] [32m[1mLinking CXX shared library libgroundingdino_interfaces__rosidl_typesupport_cpp.so[0m
+[1.791s] [ 70%] Built target groundingdino_interfaces__rosidl_typesupport_cpp
+[1.884s] [ 72%] [32m[1mLinking CXX shared library libgroundingdino_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.892s] [ 74%] [32m[1mLinking CXX shared library libgroundingdino_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.899s] [ 76%] [32m[1mLinking CXX shared library libgroundingdino_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.934s] [ 76%] Built target groundingdino_interfaces__rosidl_typesupport_introspection_cpp
+[1.944s] [ 76%] Built target groundingdino_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.947s] [ 76%] Built target groundingdino_interfaces__rosidl_typesupport_fastrtps_c
+[1.961s] [ 76%] Built target groundingdino_interfaces
+[1.975s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.350s] [ 78%] Built target groundingdino_interfaces__py
+[2.365s] [ 82%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/groundingdino_interfaces/srv/_grounding_dino_predict_s.c.o[0m
+[2.365s] [ 82%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/groundingdino_interfaces/msg/_object_positions_s.c.o[0m
+[2.365s] [ 85%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_generator_py.dir/rosidl_generator_py/groundingdino_interfaces/msg/_object_position_s.c.o[0m
+[2.434s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/groundingdino_interfaces/libgroundingdino_interfaces__rosidl_generator_py.so[0m
+[2.467s] [ 87%] Built target groundingdino_interfaces__rosidl_generator_py
+[2.483s] [ 89%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/groundingdino_interfaces/_groundingdino_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.483s] [ 91%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/groundingdino_interfaces/_groundingdino_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.483s] [ 93%] [32mBuilding C object CMakeFiles/groundingdino_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/groundingdino_interfaces/_groundingdino_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.554s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.554s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.556s] [100%] [32m[1mLinking C shared library rosidl_generator_py/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.584s] [100%] Built target groundingdino_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.584s] [100%] Built target groundingdino_interfaces__rosidl_typesupport_c__pyext
+[2.584s] [100%] Built target groundingdino_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.593s] Invoked command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/barracuda/ros2_ws3/build/groundingdino_interfaces -- -j48 -l48
+[2.600s] Invoking command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/barracuda/ros2_ws3/build/groundingdino_interfaces
+[2.605s] -- Install configuration: ""
+[2.605s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/ament_index/resource_index/rosidl_interfaces/groundingdino_interfaces
+[2.605s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces
+[2.605s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv
+[2.605s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail
+[2.605s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__functions.h
+[2.605s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__functions.c
+[2.605s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__struct.h
+[2.605s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__type_support.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/grounding_dino_predict.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__struct.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__functions.c
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__functions.c
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__functions.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__functions.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__struct.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__type_support.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__type_support.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/object_position.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/object_positions.h
+[2.606s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.607s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/environment/library_path.sh
+[2.607s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/environment/library_path.dsv
+[2.607s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_generator_c.so
+[2.607s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_generator_c.so" to ""
+[2.607s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces
+[2.607s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv
+[2.607s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail
+[2.607s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__rosidl_typesupport_fastrtps_c.h
+[2.607s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg
+[2.607s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.607s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail
+[2.607s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__rosidl_typesupport_fastrtps_c.h
+[2.608s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__rosidl_typesupport_fastrtps_c.h
+[2.608s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.608s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.608s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces
+[2.608s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv
+[2.608s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail
+[2.608s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__builder.hpp
+[2.608s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__traits.hpp
+[2.608s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__struct.hpp
+[2.608s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__type_support.hpp
+[2.608s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/grounding_dino_predict.hpp
+[2.608s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg
+[2.608s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/object_positions.hpp
+[2.609s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__struct.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__traits.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__builder.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__traits.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__builder.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__type_support.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__type_support.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__struct.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/object_position.hpp
+[2.609s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.609s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces
+[2.609s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv
+[2.609s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail
+[2.610s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/dds_fastrtps
+[2.610s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__rosidl_typesupport_fastrtps_cpp.hpp
+[2.610s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg
+[2.610s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.610s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail
+[2.610s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/dds_fastrtps
+[2.610s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[2.610s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.610s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.610s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.610s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces
+[2.610s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv
+[2.610s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail
+[2.610s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__type_support.c
+[2.611s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__rosidl_typesupport_introspection_c.h
+[2.611s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg
+[2.611s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail
+[2.611s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__rosidl_typesupport_introspection_c.h
+[2.611s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__type_support.c
+[2.611s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__type_support.c
+[2.611s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__rosidl_typesupport_introspection_c.h
+[2.611s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.611s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_introspection_c.so
+[2.611s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.611s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_c.so
+[2.612s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_c.so" to ""
+[2.612s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces
+[2.612s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv
+[2.612s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail
+[2.612s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__rosidl_typesupport_introspection_cpp.hpp
+[2.612s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/srv/detail/grounding_dino_predict__type_support.cpp
+[2.612s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg
+[2.612s] -- Up-to-date: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail
+[2.612s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__rosidl_typesupport_introspection_cpp.hpp
+[2.612s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__type_support.cpp
+[2.612s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_position__type_support.cpp
+[2.612s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/include/groundingdino_interfaces/groundingdino_interfaces/msg/detail/object_positions__rosidl_typesupport_introspection_cpp.hpp
+[2.612s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.613s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.613s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_cpp.so
+[2.613s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.613s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/environment/pythonpath.sh
+[2.613s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/environment/pythonpath.dsv
+[2.613s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces-0.0.0-py3.10.egg-info
+[2.613s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.613s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/_groundingdino_interfaces_s.ep.rosidl_typesupport_c.c
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/srv
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/srv/_grounding_dino_predict.py
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/srv/__init__.py
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/srv/_grounding_dino_predict_s.c
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.614s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/__init__.py
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/libgroundingdino_interfaces__rosidl_generator_py.so
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/_groundingdino_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/_groundingdino_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg/_object_positions.py
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg/_object_positions_s.c
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg/__init__.py
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg/_object_position_s.c
+[2.615s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg/_object_position.py
+[2.639s] Listing '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces'...
+[2.639s] Compiling '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/__init__.py'...
+[2.639s] Listing '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg'...
+[2.639s] Compiling '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg/__init__.py'...
+[2.639s] Compiling '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg/_object_position.py'...
+[2.639s] Compiling '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/msg/_object_positions.py'...
+[2.639s] Listing '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/srv'...
+[2.639s] Compiling '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/srv/__init__.py'...
+[2.639s] Compiling '/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/srv/_grounding_dino_predict.py'...
+[2.644s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.644s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.644s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.644s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.644s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.645s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/local/lib/python3.10/dist-packages/groundingdino_interfaces/groundingdino_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.645s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_generator_py.so
+[2.645s] -- Set runtime path of "/home/barracuda/ros2_ws3/install/groundingdino_interfaces/lib/libgroundingdino_interfaces__rosidl_generator_py.so" to ""
+[2.645s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/srv/GroundingDinoPredict.idl
+[2.645s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/msg/ObjectPosition.idl
+[2.645s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/msg/ObjectPositions.idl
+[2.645s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/srv/GroundingDinoPredict.srv
+[2.645s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/srv/GroundingDinoPredict_Request.msg
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/srv/GroundingDinoPredict_Response.msg
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/msg/ObjectPosition.msg
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/msg/ObjectPositions.msg
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/ament_index/resource_index/package_run_dependencies/groundingdino_interfaces
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/ament_index/resource_index/parent_prefix_path/groundingdino_interfaces
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/environment/ament_prefix_path.sh
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/environment/ament_prefix_path.dsv
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/environment/path.sh
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/environment/path.dsv
+[2.646s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/local_setup.bash
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/local_setup.sh
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/local_setup.zsh
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/local_setup.dsv
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/package.dsv
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/ament_index/resource_index/packages/groundingdino_interfaces
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_generator_cExport.cmake
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.647s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_generator_cppExport.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfaces__rosidl_typesupport_cExport.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.648s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfaces__rosidl_typesupport_cppExport.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_generator_pyExport.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/export_groundingdino_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.649s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfacesConfig.cmake
+[2.650s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/cmake/groundingdino_interfacesConfig-version.cmake
+[2.650s] -- Installing: /home/barracuda/ros2_ws3/install/groundingdino_interfaces/share/groundingdino_interfaces/package.xml
+[2.652s] Invoked command in '/home/barracuda/ros2_ws3/build/groundingdino_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/barracuda/ros2_ws3/build/groundingdino_interfaces

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from groundingdino_interfaces/msg/ObjectPositions.msg
+// generated code does not contain a copyright notice
+
+#include "groundingdino_interfaces/msg/ObjectPosition.idl"
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Float32MultiArray.idl"
+
+module groundingdino_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "ObjectPositions.msg")
+    struct ObjectPositions {
+      sequence<groundingdino_interfaces::msg::ObjectPosition> object_position;
+
+      @verbatim (language="comment", text=
+        "Annotated BGR image with all detections drawn")
+      sensor_msgs::msg::Image image;
+
+      @verbatim (language="comment", text=
+        "Workspace bounding box in pixels: [x_min, x_max, y_min, y_max]")
+      std_msgs::msg::Float32MultiArray workspace_bbox;
+    };
+  };
+};

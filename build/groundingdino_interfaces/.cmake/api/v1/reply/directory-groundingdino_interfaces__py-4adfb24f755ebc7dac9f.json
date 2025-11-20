@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "groundingdino_interfaces__py",
+		"source" : "/home/barracuda/ros2_ws3/build/groundingdino_interfaces/groundingdino_interfaces__py"
+	}
+}

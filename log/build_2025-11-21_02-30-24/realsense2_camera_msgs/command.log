@@ -1,0 +1,6 @@
+Invoking command in '/home/barracuda/ros2_ws3/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/barracuda/ros2_ws3/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/barracuda/ros2_ws3/install/realsense2_camera_msgs
+Invoked command in '/home/barracuda/ros2_ws3/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/barracuda/ros2_ws3/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/barracuda/ros2_ws3/install/realsense2_camera_msgs
+Invoking command in '/home/barracuda/ros2_ws3/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/barracuda/ros2_ws3/build/realsense2_camera_msgs -- -j48 -l48
+Invoked command in '/home/barracuda/ros2_ws3/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/barracuda/ros2_ws3/build/realsense2_camera_msgs -- -j48 -l48
+Invoking command in '/home/barracuda/ros2_ws3/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/barracuda/ros2_ws3/build/realsense2_camera_msgs
+Invoked command in '/home/barracuda/ros2_ws3/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/barracuda/ros2_ws3/build/realsense2_camera_msgs
