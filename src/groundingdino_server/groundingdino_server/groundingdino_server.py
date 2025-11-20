@@ -113,9 +113,9 @@ class groundingdino1(Node):
           )
           transformed_pose = tf2_geometry_msgs.do_transform_pose(pose, transform)
           return transformed_pose
-      except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException) as e:
-          self.get_logger().error(f"Transform error: {e}")
-          return None
+        except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException) as e:
+            self.get_logger().error(f"Transform error: {e}")
+            return None
 
     def publish_stream(self, event):
         if self.latest_result is None:
@@ -186,7 +186,7 @@ class groundingdino1(Node):
         for i in range(len(phrases)):
             object_position = ObjectPosition()
             object_position.id = i
-            object_position.Class = phrases[i]
+            object_position.class_label = phrases[i]
 
             # --- 2D bounding box in FULL image coordinates ---
             box_x_min = xyxy[i][0] + x_min
@@ -264,13 +264,6 @@ class groundingdino1(Node):
         return GetObjectLocationsResponse(result)
 
 
-            result.image = self.cv_bridge.cv2_to_imgmsg(annotated_frame, encoding="bgr8")
-            self.latest_result = result
-
-            return GetObjectLocationsResponse(result)
-            # result has annotated image, image coordinates, camera coordinates,
-
-
     def color_image_callback(self, msg: Image):
         self.color_image = self.cv_bridge.imgmsg_to_cv2(msg, desired_encoding="passthrough")
 
@@ -283,30 +276,30 @@ class groundingdino1(Node):
         self.camera_model.tf_frame = "camera_color_optical_frame"
 
     def get_camera_point(self, x, y, depth_image, camera_info, camera_model, depth_threshold):
-      if depth_image is None or camera_info is None:
-          return None, None
+        if depth_image is None or camera_info is None:
+            return None, None
 
-      depth = depth_image[y, x] / 1000.0  # mm -> m
+        depth = depth_image[y, x] / 1000.0  # mm -> m
 
-      if np.isnan(depth) or depth == 0.0 or depth > depth_threshold / 1000.0:
-          self.get_logger().info(f"Invalid depth at pixel ({x}, {y}): {depth} m")
-          return None, None
+        if np.isnan(depth) or depth == 0.0 or depth > depth_threshold / 1000.0:
+            self.get_logger().info(f"Invalid depth at pixel ({x}, {y}): {depth} m")
+            return None, None
 
-      # Ray direction in camera frame, length 1
-      ray_dir = np.array(camera_model.projectPixelTo3dRay((x, y)))
-      point_3d = ray_dir * depth  # [X_cam, Y_cam, Z_cam]
+        # Ray direction in camera frame, length 1
+        ray_dir = np.array(camera_model.projectPixelTo3dRay((x, y)))
+        point_3d = ray_dir * depth  # [X_cam, Y_cam, Z_cam]
 
-      return point_3d, depth
+        return point_3d, depth
 
-  def camera_point_to_world_pose(self, point_3d, camera_frame: str):
-    pose = PoseStamped()
-    pose.header.frame_id = camera_frame
-    pose.header.stamp = rclpy.time.Time()
-    pose.pose.position.x = float(point_3d[0])
-    pose.pose.position.y = float(point_3d[1])
-    pose.pose.position.z = float(point_3d[2])
-    pose.pose.orientation.w = 1.0
-    return self.transform_pose(pose, "world")
+    def camera_point_to_world_pose(self, point_3d, camera_frame: str):
+        pose = PoseStamped()
+        pose.header.frame_id = camera_frame
+        pose.header.stamp = rclpy.time.Time()
+        pose.pose.position.x = float(point_3d[0])
+        pose.pose.position.y = float(point_3d[1])
+        pose.pose.position.z = float(point_3d[2])
+        pose.pose.orientation.w = 1.0
+        return self.transform_pose(pose, "world")
 
 
 def main(args=None):

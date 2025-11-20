@@ -106,7 +106,7 @@ class GroundingDINOClient(Node):
             wz = obj.pose.pose.position.z
 
             self.get_logger().info(
-                f"ID {obj.id} | class={obj.Class} | bbox={bbox_str} | "
+                f"ID {obj.id} | class={obj.class_label} | bbox={bbox_str} | "
                 f"depth={depth_str} | world=({wx:.3f}, {wy:.3f}, {wz:.3f})"
             )
 

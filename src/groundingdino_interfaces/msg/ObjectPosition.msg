@@ -1,5 +1,5 @@
 int32 id
-string Class
+string class_label
 
 # 2D bounding box in full image coordinates (pixels)
 int32 x_min

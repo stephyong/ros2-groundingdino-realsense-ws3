@@ -1,6 +1,6 @@
 # ObjectPositions.msg
 
-groundingdino_interfaces/ObjectPosition[] object_position
+ObjectPosition[] object_position
 
 # Annotated BGR image with all detections drawn
 sensor_msgs/Image image
